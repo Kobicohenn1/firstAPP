@@ -27,8 +27,6 @@ public class LoginActivity extends AppCompatActivity {
     private EditText editTextEmail,editTextPassword;
     private Button signIn,forgetTextLink;
 
-    String yey = "yeyy";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(LoginActivity.this,"Eror",Toast.LENGTH_SHORT);
+                                Toast.makeText(LoginActivity.this,"Error",Toast.LENGTH_SHORT);
                             }
                         });
                     }

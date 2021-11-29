@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:padding="6dp"
         android:layout_gravity="center"
-        android:text="א קיימות הרשאות - ממתין לאישור מנהל "
-        android:textSize="20dp"
+        android:text="לא קיימות הרשאות - ממתין לאישור מנהל "
+        android:textSize="16dp"
         />
 
     <Button
