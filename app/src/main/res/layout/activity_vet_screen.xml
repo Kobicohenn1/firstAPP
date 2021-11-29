@@ -1,9 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".VetScreen">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Welcome "
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        android:text="א קיימות הרשאות - ממתין לאישור מנהל "
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:hint="עריכת שאלות ותשובות"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnQA"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:hint="מענה - לא חשב בטוב"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnSick"
+        android:textSize="15sp"
+        />
+     <Button
+         android:hint="מענה - פצע חיצוני"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnWound"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:hint="צור קשר"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnContact"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:hint="עריכת - אורח חיים בריא "
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnHealth"
+        android:textSize="15sp"
+        />
+    <Button
+        android:hint="לקוחות ממתינים לטיפול"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnWaiting"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Log Out"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
