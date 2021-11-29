@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".RegVetActivity">
+    tools:context=".MainActivity">
 
 
 
@@ -22,10 +22,10 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
-        android:hint="User Name "
+        android:hint="Name "
         android:layout_width="240dp"
         android:layout_height="50dp"
-        android:id="@+id/editUserNameVetReg"
+        android:id="@+id/editNameVetReg"
         android:textSize="20sp"
         />
 
@@ -54,7 +54,7 @@
         android:layout_height="50dp"
         android:inputType="phone"
         android:maxLength="10"
-        android:id="@+id/editPhoneNumVetReg2"
+        android:id="@+id/editPhoneNumVetReg"
         android:textSize="20sp"
         />
 
@@ -75,6 +75,15 @@
         />
 
     <Button
+        android:id="@+id/btnDip"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Diploma"
+        android:textSize="15dp" />
+
+    <Button
         android:id="@+id/btnSUVet"
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
@@ -83,8 +92,12 @@
         android:text="Sign up"
         android:textSize="15dp" />
 
-
-
+    <ImageView
+        android:id="@+id/IVPreviewImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:padding="10dp" />
 
 
 </LinearLayout>
