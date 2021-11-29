@@ -7,19 +7,29 @@
     android:orientation="vertical"
     tools:context=".VetScreen">
 
-
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="Welcome "
+        android:text="      Welcome To "
         android:layout_gravity="center"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:paddingVertical="100dp" />
+</LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,47 +41,60 @@
         />
 
     <Button
-        android:hint="עריכת שאלות ותשובות"
+        android:text="עריכת שאלות ותשובות"
         android:layout_width="240dp"
         android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#5A5656"
+        android:textColor="@color/white"
         android:id="@+id/btnQA"
         android:textSize="15sp"
         />
 
     <Button
-        android:hint="מענה - לא חשב בטוב"
+        android:text="מענה - לא חשב בטוב"
         android:layout_width="240dp"
         android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#5A5656"
         android:id="@+id/btnSick"
         android:textSize="15sp"
         />
      <Button
-         android:hint="מענה - פצע חיצוני"
+         android:text="מענה - פצע חיצוני"
         android:layout_width="240dp"
         android:layout_height="50dp"
-        android:id="@+id/btnWound"
+         android:layout_gravity="right"
+         android:backgroundTint="#5A5656"
+         android:id="@+id/btnWound"
         android:textSize="15sp"
         />
 
     <Button
-        android:hint="צור קשר"
+        android:text="צור קשר"
         android:layout_width="240dp"
         android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#5A5656"
         android:id="@+id/btnContact"
         android:textSize="15sp"
         />
 
     <Button
-        android:hint="עריכת - אורח חיים בריא "
+        android:text="עריכת - אורח חיים בריא "
         android:layout_width="240dp"
         android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#5A5656"
         android:id="@+id/btnHealth"
         android:textSize="15sp"
         />
     <Button
-        android:hint="לקוחות ממתינים לטיפול"
+        android:text="לקוחות ממתינים לטיפול"
         android:layout_width="240dp"
         android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#5A5656"
         android:id="@+id/btnWaiting"
         android:textSize="15sp"
         />
@@ -82,6 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:backgroundTint="#A61717"
         android:text="Log Out"
         android:textSize="15dp" />
 
