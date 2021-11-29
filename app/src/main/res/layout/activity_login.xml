@@ -17,9 +17,10 @@
 
 
     <EditText
+        android:id="@+id/et_email"
         android:layout_width="255dp"
         android:layout_height="50dp"
-        android:hint="User name" />
+        android:hint="Email" />
 
     <EditText
         android:id="@+id/et_password"

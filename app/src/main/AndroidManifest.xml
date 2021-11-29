@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
         <activity
+<<<<<<< HEAD
             android:name=".LoginActivityVet"
             android:exported="false" />
         <activity
             android:name=".VetScreen"
+=======
+            android:name=".AddAnimal"
+>>>>>>> ceec5534956c2cbe3de1e9fd1d186e27a84d9e96
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
